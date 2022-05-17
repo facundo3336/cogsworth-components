@@ -1,0 +1,16 @@
+.textfield {
+  padding: 10px 14px;
+  font-size: 1.03rem;
+  border-radius: 8px;
+  border: 1.2px solid rgb(215, 214, 214);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: rgb(140, 139, 139);
+    font-size: 1.03rem;
+    font-family: "Poppins", sans-serif;
+  }
+}

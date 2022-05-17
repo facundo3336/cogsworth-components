@@ -1,0 +1,25 @@
+.test {
+  padding: 30px;
+  max-width: 500px;
+  margin: 20px auto;
+
+  .logo {
+    margin-bottom: 25px;
+  }
+
+  .accountTextContainer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+
+    a {
+      color: rgb(84, 175, 244);
+      text-decoration: none;
+      margin-left: 5px;
+
+      &:hover {
+        color: #88cded;
+      }
+    }
+  }
+}

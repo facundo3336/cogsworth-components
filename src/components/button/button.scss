@@ -1,0 +1,32 @@
+button {
+  text-align: center;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.primary {
+    background-color: rgba(32, 166, 244, 255);
+    color: white;
+    padding: 15px 0;
+
+    &:hover {
+      background-color: #88cded;
+    }
+  }
+
+  &.secondary {
+    background-color: rgba(230, 233, 241, 255);
+
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  }
+}
